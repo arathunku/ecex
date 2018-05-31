@@ -54,7 +54,7 @@ defmodule Ecex.Events do
 
         def load_events do
           __MODULE__
-          |> Ecto.Query.order_by(asc: :inserted_at)
+          |> Ecto.Query.order_by(asc: :id)
           |> Ecex.Repo.all()
           |> Enum.map(&present_event/1)
         end
