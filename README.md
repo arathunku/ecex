@@ -1,21 +1,23 @@
 # Ecex
 
-**TODO: Add description**
 
-## Installation
+Simple CQRS implementation based on:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ecex` to your list of dependencies in `mix.exs`:
+  - https://gist.github.com/pcreux/d094affd957a336af4f59b85f6ec0e6d
+  - https://kickstarter.engineering/event-sourcing-made-simple-4a2625113224
 
-```elixir
-def deps do
-  [
-    {:ecex, "~> 0.1.0"}
-  ]
-end
+
+## TODO
+
+  - cleanup aggregate definitions
+  - add more tests
+  - improve changeset validations
+  - add helpers for changeset based validations for commands
+  - remove hard coded reference to the repo
+
+
+## Running
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ecex](https://hexdocs.pm/ecex).
-
+# 1st terminal: plis run postgres
+# 2nd terminal: mix test.watch
+```
