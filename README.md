@@ -7,6 +7,8 @@ Simple CQRS implementation based on:
   - https://kickstarter.engineering/event-sourcing-made-simple-4a2625113224
 
 
+[![asciicast](https://asciinema.org/a/184811.png)](https://asciinema.org/a/184811)
+
 ## TODO
 
   - cleanup aggregate definitions
