@@ -15,7 +15,8 @@ Simple CQRS implementation based on:
   - add more tests
   - improve changeset validations
   - add helpers for changeset based validations for commands
-  - remove hard coded reference to the repo
+  - remove hard coded reference to the repo'
+  - aggregate locking
 
 
 ## Running
